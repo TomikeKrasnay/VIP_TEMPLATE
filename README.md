@@ -3,11 +3,13 @@ Template for VIP architecture (Xcode 10)
 
 ### Manual
 
-Copy the `ustwo VIP Templates` folder to `~/Library/Developer/Xcode/Templates/File Templates`.
+Create new folder in `~/Library/Developer/Xcode/Templates/File Templates`.
+
+Copy the `Scene.xctemplate` to the folder.
 
 ## Usage
 
-To generate a new VIP module (scene), in Xcode go to File > New File and select from the `ustwo VIP Templates` section.
+To generate a new VIP module (scene), in Xcode go to File > New File and select from the `"name of folder"` section.
 
 Give a name to your scene e.g. `Review` and it will generate all related files using this name as a prefix for your source code files.
 
